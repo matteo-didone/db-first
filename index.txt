@@ -1,0 +1,41 @@
+|------------------------------------------------------------------------------------------------------------------------------|
+| N. | Marca        | Modello      | Anno di Immatricolazione| Prezzo      | Carburante | Kilometraggio |  Cambio    | Potenza |
+|----|--------------|--------------|-------------------------|-------------|------------|---------------|------------|---------|
+| 1. | Audi         | A3 Sportback | 2017                    | €20,000.00  | Diesel     | 40,000 km     | Automatico | 85 kW   |
+| 2. | Ford         | Fiesta       | 2016                    | €10,500.00  | Benzina    | 35,000 km     | Manuale    | 75 kW   |
+| 3. | Volkswagen   | Golf         | 2018                    | €18,500.00  | Diesel     | 50,000 km     | Automatico | 92 kW   |
+| 4. | Fiat         | 500          | 2015                    | €8,000.00   | Benzina    | 25,000 km     | Manuale    | 51 kW   |
+| 5. | Mercedes-Benz| C220d        | 2020                    | €32,000.00  | Diesel     | 20,000 km     | Automatico | 143 kW  |
+| 6. | BMW          | 520i         | 2017                    | €24,500.00  | Benzina    | 60,000 km     | Automatico | 135 kW  |
+| 7. | Renault      | Clio         | 2016                    | €9,800.00   | Benzina    | 45,000 km     | Manuale    | 66 kW   |
+| 8. | Toyota       | Yaris        | 2019                    | €14,000.00  | Benzina    | 30,000 km     | Manuale    | 82 kW   |
+| 9. | Volvo        | XC60         | 2018                    | €28,500.00  | Diesel     | 55,000 km     | Automatico | 140 kW  |
+| 10.| Peugeot      | 308          | 2017                    | €13,500.00  | Diesel     | 48,000 km     | Manuale    | 92 kW   |
+| 11.| Hyundai      | Tucson       | 2016                    | €16,500.00  | Diesel     | 42,000 km     | Manuale    | 85 kW   |
+| 12.| Chevrolet    | Cruze        | 2015                    | €9,200.00   | Benzina    | 38,000 km     | Manuale    | 96 kW   |
+| 13.| Nissan       | Qashqai      | 2018                    | €17,800.00  | Diesel     | 52,000 km     | Manuale    | 110 kW  |
+| 14.| Opel         | Corsa        | 2017                    | €10,000.00  | Benzina    | 30,000 km     | Manuale    | 66 kW   |
+| 15.| Skoda        | Octavia      | 2019                    | €19,500.00  | Diesel     | 28,000 km     | Automatico | 110 kW  |
+| 16.| Honda        | Civic        | 2016                    | €12,900.00  | Benzina    | 36,000 km     | Manuale    | 95 kW   |
+| 17.| Seat         | Leon         | 2018                    | €15,700.00  | Diesel     | 40,000 km     | Manuale    | 85 kW   |
+| 18.| Mitsubishi   | Outlander    | 2017                    | €20,200.00  | Benzina    | 58,000 km     | Automatico | 117 kW  |
+| 19.| Kia          | Sportage     | 2016                    | €16,800.00  | Diesel     | 46,000 km     | Manuale    | 85 kW   |
+| 20.| Jaguar       | F-Pace       | 2020                    | €42,000.00  | Diesel     | 12,000 km     | Automatico | 180 kW  |
+|------------------------------------------------------------------------------------------------------------------------------|
+
+
+N è l'ID --> Integer, Medium Int, Unsigned, PRIMARY_KEY_AUTOINCREMENT
+MARCA  --> Stringa, VARCHAR(20), NOT_NULL
+MODELLO --> Stringa, VARCHAR(20), NOT_NULL
+ANNO DI IMMATRICOLAZIONE --> Integer, Medium Int, Unsigned, NULL
+PREZZO --> FLOAT, FLOAT(6, 2), NULL
+CARBURANTE --> Stringa, VARCHAR(15), NOT_NULL
+KILOMETRAGGIO --> Integer, Int, Unsigned, NOT_NULL
+CAMBIO --> Stringa, VARCHAR(10), NOT_NULL
+POTENZA --> Integer, Small Int, Unsigned, NOT_NULL
+
+Poi, evenutalmente, si possono aggiungere tanti altri parametri, come:
+NUMERO DI PORTE --> Integer, Tiny Int, Unsigned, NOT_NULL
+
+
+
