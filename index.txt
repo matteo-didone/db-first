@@ -36,6 +36,8 @@ POTENZA --> Integer, Small Int, Unsigned, NOT_NULL
 
 Poi, evenutalmente, si possono aggiungere tanti altri parametri, come:
 NUMERO DI PORTE --> Integer, Tiny Int, Unsigned, NOT_NULL
-
+INGRANAGGI --> Integer, Tiny Int, Unsigned, NOT_NULL
+MARCE --> Integer, Tiny Int, Unsigned, NOT_NULL
+PESO DEL VEICOLO VUOTO --> Integer, Small Int ,Unsigned, NOT_NULL
 
 
