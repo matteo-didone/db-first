@@ -24,20 +24,24 @@
 |------------------------------------------------------------------------------------------------------------------------------|
 
 
-N è l'ID --> Integer, Medium Int, Unsigned, PRIMARY_KEY_AUTOINCREMENT
-MARCA  --> Stringa, VARCHAR(20), NOT_NULL
-MODELLO --> Stringa, VARCHAR(20), NOT_NULL
-ANNO DI IMMATRICOLAZIONE --> Integer, Medium Int, Unsigned, NULL
-PREZZO --> FLOAT, FLOAT(6, 2), NULL
+N è l'ID --> Integer, Medium Int, Unsigned, PRIMARY_KEY_AUTOINCREMENT, UNIQUE
+MARCA  --> Stringa, VARCHAR(20), NOT_NULL, INDEX
+MODELLO --> Stringa, VARCHAR(20), NOT_NULL, INDEX
+ANNO DI IMMATRICOLAZIONE --> Integer, Medium Int, Unsigned, NOT_NULL, INDEX
+PREZZO --> FLOAT, FLOAT(9, 2), NULL
 CARBURANTE --> Stringa, VARCHAR(15), NOT_NULL
 KILOMETRAGGIO --> Integer, Int, Unsigned, NOT_NULL
 CAMBIO --> Stringa, VARCHAR(10), NOT_NULL
 POTENZA --> Integer, Small Int, Unsigned, NOT_NULL
+CAVALLI --> Integer, Small Int, Unsigned, NOT_NULL
 
 Poi, evenutalmente, si possono aggiungere tanti altri parametri, come:
 NUMERO DI PORTE --> Integer, Tiny Int, Unsigned, NOT_NULL
 INGRANAGGI --> Integer, Tiny Int, Unsigned, NOT_NULL
-MARCE --> Integer, Tiny Int, Unsigned, NOT_NULL
+MARCE --> Integer, Tiny Int, Unsigned, NULL
 PESO DEL VEICOLO VUOTO --> Integer, Small Int ,Unsigned, NOT_NULL
-
-
+COLORE --> Stringa, VARCHAR(20), NULL
+IS_NEW --> Boolean, NOT_NULL, DEFAULT(0)
+NOTE --> Stringa, NULL, 
+vin --> Stringa, VARCHAR(20), NULL
+NOTE --> Stringa, VARCHAR(20), NULL
